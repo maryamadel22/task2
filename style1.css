@@ -1,0 +1,136 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+.containar{
+max-width:1300px;
+margin: auto;
+
+}
+header{
+    background-color: #FFFFFF;
+    border-bottom:1px solid #F4E8D8;
+    height: 99px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo {
+margin-top: 48px;
+font-size:22px;
+margin-left: 40px;
+color: #14203E3D;
+;
+
+}
+.nav{
+    display: flex;
+    margin-top: 48px;
+    justify-content: space-between;   
+}
+.nav .menu{ 
+    margin-left: 40px;
+}
+.buttons{
+    display: flex;
+    margin-top: 40px;
+}
+.buttons .btn{
+ justify-content: space-between;  
+ margin-left: 6px;
+ background-color: #14203E;
+ color: #f5f5f5;
+ border: none;
+ width: 179px; 
+}
+.buttons .btn1{
+    border: none;
+}
+
+.buttons button{
+    border-radius: 5px;
+    background-color: rgb(238, 255, 255);
+    width: 99px;
+    height: 29px;
+   
+}
+.body{
+    background-color: #FFFCF8;
+    height: 407px;
+    text-align: center;
+}
+.titel{
+  text-align: center;
+  display: flex;
+  justify-content: center;   
+  flex-direction: column;
+ 
+  
+}
+.titel h1{
+    font-size: 60px;
+    color: #14203E;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+
+}
+.titel p{
+    margin-top: 10px;
+    font-size: 22px;
+  
+}
+.titel .btn3{
+    justify-content: center;
+   
+}
+.titel  button {
+    height: 60px;
+    width: 190px;
+    margin-top: 20px;
+    background-color: #14203E;
+    border-radius: 10px;
+    color: #f5f5f5;
+    
+}
+.body2{
+    height: 407px;
+    margin-top: 100px;
+}
+.border{
+    align-items: center;
+    text-align: center;
+
+}
+.image{
+    height: 200px;
+    margin-top: 30px;
+}
+
+.image img{
+width:290px;
+height: 231px;
+display: flex;
+justify-content: space-between;
+}
+.image .info {
+  text-align:start; 
+  margin-top: 20px;
+ 
+  
+}
+.image .info h2{
+    font-size: 22px;
+   
+}
+.image .info p{
+    font-size:14px;
+    color: rgba(20, 32, 62, 1);
+   
+}
+
+
